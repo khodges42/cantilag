@@ -1,0 +1,16 @@
+{:name "particle"
+ :entity "Particle"
+ :n 10000000
+ :iters 100
+ :fields
+ [{:name "x"  :type :f32 :hot true}
+  {:name "y"  :type :f32 :hot true}
+  {:name "vx" :type :f32 :hot true}
+  {:name "vy" :type :f32 :hot true}
+  {:name "name" :type :bytes32 :cold true}]
+ :system
+ {:name "move"
+  :reads ["vx" "vy"]
+  :writes ["x" "y"]
+  :ops ["x[i] += vx[i] * dt;"
+        "y[i] += vy[i] * dt;"]}}

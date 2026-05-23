@@ -12,3 +12,11 @@ pom.xml.asc
 .lein-failures
 .nrepl-port
 .cpcache/
+/generated/*
+!/generated/.keep
+
+/build/*
+!/build/.keep
+.cpcache/
+.clj-kondo/.cache/
+.lsp/
