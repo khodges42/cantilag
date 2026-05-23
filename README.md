@@ -29,7 +29,9 @@ Think:
 * declarative performance engineering
 
 [FAQ](docs/faq.md)
+
 [HUH?](docs/huh.md)
+
 [I am a recruiter looking at this](https://linkedin.com/khodges42)
 
 ---

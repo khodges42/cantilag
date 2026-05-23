@@ -1,6 +1,3 @@
-# huh.md
-
-````md
 # huh?
 
 ## okay but what *is* this?
@@ -159,6 +156,3 @@ The emotional goal:
 
 absolutely not
 
-
-```
-```
